@@ -4,7 +4,7 @@ import PlausibleProvider from "next-plausible";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <PlausibleProvider domain="demo.achainarong.com">
+    <PlausibleProvider domain="analytics.achainarong.com">
       <Component {...pageProps} />
     </PlausibleProvider>
   );
