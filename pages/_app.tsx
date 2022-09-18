@@ -4,7 +4,11 @@ import PlausibleProvider from "next-plausible";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <PlausibleProvider domain="demo.achainarong.com">
+    <PlausibleProvider
+      domain="demo.achainarong.com"
+      selfHosted="true"
+      customDomain="analytics.achainarong.com"
+    >
       <Component {...pageProps} />
     </PlausibleProvider>
   );
