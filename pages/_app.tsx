@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <PlausibleProvider
       domain="demo.achainarong.com"
-      selfHosted=true
+      selfHosted={true}
       customDomain="https://analytics.achainarong.com"
     >
       <Component {...pageProps} />
