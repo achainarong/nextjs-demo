@@ -6,7 +6,7 @@ import PlausibleProvider from "next-plausible";
 
 const Home: NextPage = () => {
   return (
-    <PlausibleProvider>
+    <PlausibleProvider domain="demo.achainarong.com">
       <div className={styles.container}>
         <Head>
           <title>Create Next App</title>
